@@ -1,6 +1,7 @@
 import { RouteConfig } from 'react-router-config';
 import Helloworld from './pages/Helloworld';
 import Home from './pages/Home';
+import Main from './pages/Main';
 
 const routesConfig: RouteConfig[] = [
   {
@@ -12,6 +13,11 @@ const routesConfig: RouteConfig[] = [
     path: '/helloWorld',
     exact: true,
     component: Helloworld,
+  },
+  {
+    path: '/main',
+    exact: true,
+    component: Main,
   }
 ]
 
