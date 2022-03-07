@@ -15,9 +15,9 @@ export default (props: RouteComponentProps) => {
     setState(state + 1);
 
     // how to fix async worker ?
-    setTimeout(() => {
-      setState(state + 1);
-    }, 1000);
+    // setTimeout(() => {
+    //   setState(state + 1);
+    // }, 1000);
   };
 
   useEffect(() => {
